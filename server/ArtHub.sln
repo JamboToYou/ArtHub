@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArtHub.Services", "ArtHub.Services", "{CAD532FC-683F-4ED3-8E28-E544E8F87106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtHub.Services.Tests", "ArtHub.Services\ArtHub.Services.Tests\ArtHub.Services.Tests.csproj", "{612E9DA4-8B2F-4D26-A2A5-EB075C7EAEB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtHub.Services.Contracts", "ArtHub.Services\ArtHub.Services.Contracts\ArtHub.Services.Contracts.csproj", "{E3CA42BE-5113-4D35-8945-B2873DE1F987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtHub.Services", "ArtHub.Services\ArtHub.Services\ArtHub.Services.csproj", "{0B309D52-8B40-4C8C-8A51-07FE3E6EA253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArtHub.WebApi", "ArtHub.WebApi", "{4F40BC5E-3EA1-46F4-937D-1B33EE3CEB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtHub.WebApi", "ArtHub.WebApi\ArtHub.WebApi\ArtHub.WebApi.csproj", "{B0A5D9B7-344D-4B91-AF49-3632E9AE5FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArtHub.WebApi.Tests", "ArtHub.WebApi\ArtHub.WebApi.Tests\ArtHub.WebApi.Tests.csproj", "{2C46F881-7AB9-43F8-B3E8-8868E1682F9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{612E9DA4-8B2F-4D26-A2A5-EB075C7EAEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{612E9DA4-8B2F-4D26-A2A5-EB075C7EAEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{612E9DA4-8B2F-4D26-A2A5-EB075C7EAEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{612E9DA4-8B2F-4D26-A2A5-EB075C7EAEB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3CA42BE-5113-4D35-8945-B2873DE1F987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CA42BE-5113-4D35-8945-B2873DE1F987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CA42BE-5113-4D35-8945-B2873DE1F987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CA42BE-5113-4D35-8945-B2873DE1F987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B309D52-8B40-4C8C-8A51-07FE3E6EA253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B309D52-8B40-4C8C-8A51-07FE3E6EA253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B309D52-8B40-4C8C-8A51-07FE3E6EA253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B309D52-8B40-4C8C-8A51-07FE3E6EA253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A5D9B7-344D-4B91-AF49-3632E9AE5FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A5D9B7-344D-4B91-AF49-3632E9AE5FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A5D9B7-344D-4B91-AF49-3632E9AE5FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A5D9B7-344D-4B91-AF49-3632E9AE5FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C46F881-7AB9-43F8-B3E8-8868E1682F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C46F881-7AB9-43F8-B3E8-8868E1682F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C46F881-7AB9-43F8-B3E8-8868E1682F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C46F881-7AB9-43F8-B3E8-8868E1682F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{612E9DA4-8B2F-4D26-A2A5-EB075C7EAEB0} = {CAD532FC-683F-4ED3-8E28-E544E8F87106}
+		{E3CA42BE-5113-4D35-8945-B2873DE1F987} = {CAD532FC-683F-4ED3-8E28-E544E8F87106}
+		{0B309D52-8B40-4C8C-8A51-07FE3E6EA253} = {CAD532FC-683F-4ED3-8E28-E544E8F87106}
+		{B0A5D9B7-344D-4B91-AF49-3632E9AE5FAF} = {4F40BC5E-3EA1-46F4-937D-1B33EE3CEB60}
+		{2C46F881-7AB9-43F8-B3E8-8868E1682F9D} = {4F40BC5E-3EA1-46F4-937D-1B33EE3CEB60}
+	EndGlobalSection
+EndGlobal
