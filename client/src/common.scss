@@ -1,0 +1,16 @@
+@import 'theme.scss';
+
+.justified {
+	justify-content: space-evenly;
+}
+
+// @each $color in $colors {
+// 	.square-#{$color} {
+// 		border: 1px solid get_c_value($color);
+// 	}
+
+// 	.rounded-square-#{$color} {
+// 		border: 1px solid get_c_value($color);
+// 		border-radius: 3px;
+// 	}
+// }

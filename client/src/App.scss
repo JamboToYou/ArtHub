@@ -1,3 +1,11 @@
-h1 {
-	color: red;
+@import 'common.scss';
+
+.navigation {
+
+	width: 80%;
+
+	&__items {
+		display: flex;
+		flex-direction: row;
+	}
 }

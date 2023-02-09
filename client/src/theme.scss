@@ -1,0 +1,21 @@
+$colors: "main", "secondary", "success", "warning", "info";
+
+$c_main: #0077ff;
+$c_secondary: gray;
+$c_success: lightgreen;
+$c_warning: yellow;
+$c_info: #41c9ff;
+
+@function get_c_value($color) {
+	@if ($color == "main") {
+		@return $c_main;
+	} @else if ($color == "secondary") {
+		@return $c_secondary;
+	} @else if ($color == "success") {
+		@return $c_success;
+	} @else if ($color == "warning") {
+		@return $c_warning;
+	} @else {
+		@return $c_info;
+	}
+}
